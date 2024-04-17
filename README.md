@@ -16,32 +16,30 @@ Este repositório contém uma aplicação de inteligência artificial (IA) desen
 ## Tecnologias Utilizadas
 
 - **Python**: Linguagem de programação principal para o desenvolvimento da aplicação.
-- **Scikit-learn**: Biblioteca de aprendizado de máquina em Python para implementar os modelos de detecção de fraudes.
-- **TensorFlow / PyTorch**: Frameworks de aprendizado profundo utilizados para construir e treinar modelos de IA mais complexos.
 - **Flask**: Framework web utilizado para criar a interface de usuário da aplicação.
 - **HTML/CSS/JavaScript**: Tecnologias front-end para o desenvolvimento da interface de usuário.
 
+---
+
 ## Como Utilizar
 
-1. **Clonar o Repositório**: Clone este repositório em sua máquina local utilizando o seguinte comando:
+Este projeto pode ser facilmente executado no ambiente do Google Colab, o que proporciona uma experiência de execução em um ambiente de notebook Python baseado na nuvem. Siga estas etapas para executar a aplicação:
 
-    ```
-    git clone https://github.com/seu-usuario/nome-do-repositorio.git
-    ```
+1. **Abra o Notebook no Google Colab**: Clique no link abaixo para abrir o notebook no Google Colab:
 
-2. **Instalar Dependências**: Instale as dependências necessárias utilizando o gerenciador de pacotes `pip`:
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zI_jCpfAeQg8_bmVdgS0bh3zcg58RpMK?usp=sharing)
 
-    ```
-    pip install -r requirements.txt
-    ```
+2. **Execute o Notebook**: Após abrir o notebook no Google Colab, clique em "Runtime" e depois em "Run all" para executar todas as células do notebook.
 
-3. **Executar a Aplicação**: Execute a aplicação utilizando o seguinte comando:
+3. **Acesse a Interface**: Depois que todas as células forem executadas com sucesso, você poderá acessar a interface da aplicação. Siga as instruções fornecidas no notebook para acessar a interface e interagir com a aplicação.
 
-    ```
-    python app.py
-    ```
+4. **Utilize a Aplicação**: Explore as funcionalidades da aplicação, faça testes e experimente diferentes cenários para entender o funcionamento da detecção de fraudes em transações financeiras com inteligência artificial.
 
-4. **Acessar a Interface**: Abra o navegador e acesse `http://localhost:5000` para utilizar a aplicação.
+Utilizar o Google Colab proporciona uma maneira conveniente e gratuita de executar e interagir com o projeto sem a necessidade de configurar um ambiente de desenvolvimento local.
+
+--- 
+
+Você pode substituir "https://colab.research.google.com/drive/1zI_jCpfAeQg8_bmVdgS0bh3zcg58RpMK?usp=sharing" pelo link direto para o seu notebook hospedado no Google Colab.
 
 ## Contribuição
 
@@ -55,8 +53,11 @@ Contribuições são bem-vindas! Se você deseja contribuir para este projeto, s
 
 ## Autores
 
-- [Nome do Autor](https://github.com/nome-do-autor)
-- [Nome do Autor 2](https://github.com/nome-do-autor2)
+- Lucas Henrique Silva Porto Moraes
+- Lucas de Castro Nunes Fonseca 
+- Laura Alves Silva
+- Marlon José da Silva Tenório
+- Nichollas Rocha de Araújo Paes 
 
 ## Licença
 
