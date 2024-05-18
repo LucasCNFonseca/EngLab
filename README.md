@@ -69,16 +69,16 @@ Você pode substituir "https://colab.research.google.com/drive/1zI_jCpfAeQg8_bmV
    - O usuário visualiza os resultados da detecção de fraudes através de dashboards interativos, que exibem detalhes das transações, estatísticas de fraudes e gráficos de análise.
    - Opções de filtragem e exportação de relatórios estão disponíveis para análise aprofundada e documentação.
 
-3. Framework e Funcionamento
+## Framework e Funcionamento
 
-## Frontend:
+# Frontend:
 - Framework: React.js para construir uma interface de usuário interativa e responsiva.
 - Funcionalidades:
   - Formulários para upload de dados.
   - Dashboards para visualização de resultados.
   - Páginas de login e autenticação.
 
-## Backend:
+# Backend:
 - Framework: Flask ou Django (Python) para construção de APIs RESTful.
 - Funcionalidades:
   - Autenticação e autorização de usuários.
@@ -117,9 +117,9 @@ Você pode substituir "https://colab.research.google.com/drive/1zI_jCpfAeQg8_bmV
 -	import matplotlib.ticker as ticker
 - Algoritmos: Árvores de Decisão, SVM, Regressão Logística.
 
-4. Aplicações Backend e Endpoints
+## Aplicações Backend e Endpoints
 
-## Endpoints e Funcionamento:
+# Endpoints e Funcionamento:
 
 1. Autenticação e Gerenciamento de Usuários:
    - `POST /api/login`: Autentica o usuário e retorna um token JWT.
@@ -141,7 +141,7 @@ Você pode substituir "https://colab.research.google.com/drive/1zI_jCpfAeQg8_bmV
    - `GET /api/dashboard`: Fornece dados e estatísticas para exibição nos dashboards de visualização de resultados.
    - `GET /api/reports`: Gera e retorna relatórios detalhados sobre a detecção de fraudes, com opções de exportação.
 
-6. Como funcionam para o Usuário:
+## Como funcionam para o Usuário:
 - O usuário interage com a interface web para fazer upload de dados, iniciar o treinamento de modelos e visualizar resultados.
 - As interações da interface web são manejadas pelo backend através dos endpoints definidos.
 - A segurança dos dados e a integridade das operações são asseguradas por autenticação robusta e validações rigorosas implementadas no backend.
